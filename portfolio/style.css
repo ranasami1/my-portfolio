@@ -63,7 +63,24 @@ section{
     color: rgb(211, 56, 56);
     font-size: 3em;
     font-weight: 600;
+    animation-name: span;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+@keyframes span{
+    from{
+        color: rgb(175, 175, 228);
+        
+       
+       
+    }to{
+        color: brown;
+    
+
+    }
+
+}
+
 .main h3{
     color: white;
     font-size:2em ;
@@ -142,12 +159,16 @@ section{
 }
 .projects .content{
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .project-card{
     background-color: white;
     box-shadow: 0 5px 15px brown;
-    min-height: 14em;
-    width: 15em;
+    height: 14em;
+    min-width: 15em;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -169,7 +190,6 @@ section{
     min-height: 70px;
 }
 .footer{
-    position:relative;
     width: 100%;
     z-index: 9999;
     font-size: 1.2em;
