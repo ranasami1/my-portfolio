@@ -63,16 +63,6 @@ section{
     color: rgb(211, 56, 56);
     font-size: 3em;
     font-weight: 600;
-     animation-name: span;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-@keyframes span{
-    from{
-        color: rgb(175, 175, 228);
-    }to{
-        color: brown;
-    }
 }
 .main h3{
     color: white;
